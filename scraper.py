@@ -49,3 +49,5 @@ if response.status_code == 200:
           with open(f'/content/drive/My Drive/Projects/Image_Scraper/scraped_images_3/{img_name}', 'wb') as f:
               f.write(img_data)
               print(f'Saved {img_name}')
+
+#This comment signifies the cloning and then pushing of the repo on Utkarsh's Macbook Pro 13
